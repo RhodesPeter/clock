@@ -1,5 +1,7 @@
 body {
- background-color: #E54540;
+  background-color: #E54540;
+  font-family: 'Signika', sans-serif;
+  color: #2A2632;
 }
 
 .clock {
@@ -16,6 +18,7 @@ body {
 }
 
 .clock__face {
+  flex-shrink: 0;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -55,7 +58,7 @@ body {
   width: 110px;
   height: 6px;
   right: 50%;
-  background-color: #309AC4;
+  background-color: #3A9B7B;
   border-radius: 20px;
   transform: rotate(90deg);
   transform-origin: 100%;
@@ -77,10 +80,17 @@ body {
 }
 
 .clock__title {
-  color: #2A2632;
   margin-top: 180px;
   font-size: 3rem;
-  font-family: 'Signika', sans-serif;
+}
+
+.clock__city-button {
+  font-size: 1.1rem;
+  border: 2px solid #61E7BE;
+  padding: 4px 15px;
+  border-radius: 10px;
+  margin-top: 8px;
+  cursor: pointer;
 }
 
 .no-transition {
@@ -88,5 +98,5 @@ body {
 }
 
 .off-screen {
-  transform: translate(0,-999px);
+  transform: translate(0,-1999px);
 }
