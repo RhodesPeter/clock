@@ -15,7 +15,7 @@ Creating custom CSS transitions with the Chrome [cubic-bezier](https://developer
 [This](http://cubic-bezier.com/#.17,.67,.83,.67) is also a great resource for getting the cubic-bezier values you want for a transitions.
 
 1) Add the transition to your CSS.
-2) Go to the Chrome Dev Tools and edit the cubic-bezier attribute.
+2) Go to the Chrome dev tools and edit the cubic-bezier attribute.
 3) Copy the cubic-bezier value from the dev tools into your code.
 
 ![](https://github.com/RhodesPeter/clock/blob/master/assets/cubic-bezier-for-readme.png)
